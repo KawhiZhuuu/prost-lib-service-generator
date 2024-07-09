@@ -1,17 +1,17 @@
 [package]
 authors = ["David Flemström <david.flemstrom@gmail.com>"]
-name = "prost-simple-rpc"
-description = "A simple RPC implementation on top of prost"
+name = "prost-lib-service-generator"
+description = "A simple lib service implementation on top of prost"
 license = "MIT"
-repository = "https://github.com/dflemstr/prost-simple-rpc"
-version = "0.3.1-alpha.0"
+repository = "https://github.com/KawhiZhuuu/prost-lib-service-generator"
+version = "0.0.1"
 
 [dependencies]
 bytes = "0.4.9"
 failure = "0.1.2"
 failure_derive = "0.1.2"
 futures = "0.1.23"
-prost = "0.4.0"
+prost = "0.13.0"
 
 [dependencies.clippy]
 optional = true
